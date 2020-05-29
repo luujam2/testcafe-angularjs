@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-angularjs-disabled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./test.js --selector-timeout 50000 --skip-js-errors --skip-uncaught-errors --live"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.8.5"
+  }
+}
